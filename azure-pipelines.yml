@@ -121,6 +121,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Lely-kvlier-dev'
+              azureSubscription: '774502f4-27b7-4074-9502-1a096a1cac75'
               appName: '$(WebAppNameDev)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
